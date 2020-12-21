@@ -308,7 +308,7 @@ adminRouter.post('/update/author/:id',function(req,res){
     console.log("my delete id is"+ id);
     Authordata.findOneAndDelete({_id:id})
     .then(function(){
-        res.redirect("/authors")
+        res.redirect("/admin/a")
             
     
         });

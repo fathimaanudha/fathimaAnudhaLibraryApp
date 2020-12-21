@@ -1,0 +1,312 @@
+/* override bootstrap styles */
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+body {
+  
+  padding-top:50px;
+  color:#000000;
+  /* background-color:#000000; */
+  /* background-image: url(/images/bg2.jpg); */
+}
+
+h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family: 'Henny Penny', cursive;
+}
+
+footer {
+
+  margin-top:40px;
+  padding-top:40px;
+  padding-bottom:40px;
+  background-color:#cecece;
+ 
+}
+
+
+#masthead {
+  min-height:199px;
+  /* background-color:#000044; */
+  background-image: url(/images/bg1.jpg);
+  color:#aaaacc;
+}
+
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  color:#fefeff;
+  margin-top:50px;
+}
+
+#masthead .well {
+  margin-top:31px;
+  /* background-color:#111166; */
+  background-image: url(/images/bg1.jpg);
+  border-color:#00002200;
+  color:#efefff;
+  min-height:127px;
+}
+.panel{
+  width: 90%;
+  margin-left:8%;
+  
+}
+.top-spacer {
+  /* background-color:#ffffff; */
+  background-color:#f1d790;
+  height:90px;
+  margin-left: 8%;
+  width: 90%;
+  padding: 2%;
+  /* border-left: 5px double black; */
+  /* border-top: 10px double black; */
+
+
+}
+#topPanel {
+  padding-top:0px;
+  padding-left:22px;
+  padding-right:22px;
+}
+#topPanel .panel-body {
+  padding-top:0px;
+}
+.panel-body{
+  background-color:#f1d790;
+}
+#row{
+  /* padding: 2%; */
+  /* border: 2px solid wheat; */
+  padding: 2px;
+  margin: 3px;
+  transition: all 0.3s linear;
+}
+#row:hover{
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+
+
+a,a:hover {
+  color:#223344;
+  text-decoration:none;
+  border-radius: 90%;
+}
+
+.icon-bar {
+  background-color:rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.navbar-bright {
+  background-color:#f1d790e3;
+  color:rgb(8, 8, 8);
+  margin-bottom: 0;
+  border-width: 0;
+}
+
+.navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+  color:#000000;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing:.08em;
+  float: left;
+}
+
+.navbar-bright li > a:hover {
+  background-color:#f8f8f8be;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#fff;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+}
+.label  {
+  background-color: transparent;
+  color: black;
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+}
+small{
+  background-color: transparent;
+  color: black;
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+}
+.text-muted{
+  margin-left: 1.5%;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
+
+
+#page-wrap{
+  margin-left: 32%;
+  border: 3px solid rgb(233, 225, 225);
+  background-color:rgba(212, 208, 171, 0.678);
+  /* background-image: url(./images/ToDoList_1920x1080blur.jpg); */
+  /* background-size: cover; */
+  width: 35vw;
+  margin-top: 2%;
+  padding: 5%;
+}
+#page-wrap input{
+  padding: 2%;
+   width: 25vw;
+  background-color: rgb(226, 225, 225);
+  color: rgb(14, 1, 1, 169);
+  border: 2px solid rgb(255, 255, 255);
+}
+#page-wrap h2{
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0;
+}
+#page-wrap h6,#a{
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+  color: #5c1807 !important;
+}
+#page-wrap h6,#a:hover{
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+  color: #000000  !important;
+}
+#btn1{
+  /* margin-left: 40%; */
+  width: 25vw;
+    background-color: rgb(80, 39, 6);
+    color: rgb(235, 233, 233);
+    border: 2px solid rgba(255, 255, 252, 0.918);
+
+}
+#btn1:hover{
+    background-color: rgb(238, 217, 97);
+    color: rgb(105, 10, 10);
+    border: 2px solid rgba(107, 70, 68, 0.918);
+
+}
+/* return!! (emailVal()& phoneVal()&pwdVal()) */
+
+.zone {
+  /*padding:30px 50px;
+  margin:40px 60px;*/
+  cursor:pointer;
+  /*display:inline-block;*/
+  color:#FFF;
+  font-size:2em;
+  border-radius:4px;
+  border:1px solid #bbb;
+  transition: all 0.3s linear;
+}
+.zone:hover {
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.box:hover{
+	-webkit-transform: rotate(-1deg);
+	-moz-transform:rotate(-1deg);
+    -o-transform:rotate(-1deg);
+    transform:rotate(-1deg);
+}
+
+.grid-wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill,minmax(600px, 1fr));
+}
+.box {
+  font-family: 'Henny Penny', cursive;
+  background-color: #141103;
+  width: 40vw;
+	padding: 30px;
+  margin: 20px;
+  text-align: center;
+  font-size: larger;
+
+}
+.alert-warning{
+  color: red;
+  
+}

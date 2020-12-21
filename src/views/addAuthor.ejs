@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title><%=title%></title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="/css/styles.css" rel="stylesheet">
+	</head>
+	<body style="background-image: url(/images/bg1.jpg);">
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/admin/back" class="navbar-brand">Back</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+      </ul>
+      <ul class="nav navbar-right navbar-nav">
+        <li>
+          <a href="/login/logout" class="navbar-brand">Logout</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- form -->
+<div id="page-wrap">
+  <h2>Add Author</h2>
+   <form action="/admin/adda" method="POST" enctype="multipart/form-data" >
+      <input type="text" name="name" required placeholder="Enter the name of the Author">
+         <br>
+         
+         <br>              
+            
+               
+        <input type="text" name="genre" required placeholder="Enter genre "><br>
+         
+         <br> 
+         <input type="text" name="works" required placeholder="Enter popular works">
+         <br>
+
+       
+         <br> 
+         
+Add image:
+        <input type="file" name="image" required placeholder="image here"><br>
+         
+         <br> 
+       <button class="btn btn-lg btn-primary btn-block" type="submit" id="btn1" style="font-family: 'Henny Penny', cursive;" >Add Author</button>
+  </form>        
+</div>          
+<hr>               
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="container" id="footer">
+        <div class="row">
+          <div class="col col-sm-12">
+            
+            <h1>Follow Us</h1>
+            <div class="btn-group">
+             <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
+           <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
+           <a class="btn btn-google-plus btn-lg" href="#"><i class="icon-google-plus icon-large"></i> Google+</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li><i class="icon-facebook icon-2x"></i></li>
+          <li><i class="icon-twitter icon-2x"></i></li>
+          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><i class="icon-pinterest icon-2x"></i></li>
+        </ul>
+        
+      </div>
+      <div class="col-sm-6">
+          <p class="pull-right">Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a></p>      
+      </div>
+    </div>
+  </div>
+</footer>
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+	</body>
+</html>
